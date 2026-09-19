@@ -7,9 +7,15 @@ wait(int seconds){
 }
 
 int main(){
-    std::cout << "aight cya";
-    wait(1);
+    int s;
 
+    std::cout << "how long?";
+    std::cin >> s;
+    std::cout << "aight cya";
+
+    s = (s>10) ? 10 : (s<0) ? 0 : s;
+
+    wait(s);
     exit(0);
     
     return 0;
