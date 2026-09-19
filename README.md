@@ -1,9 +1,10 @@
 # program-that-closes-itself-when-you-open-it
 closes itself if program is opened
 
-how it works
 
-it will ask you how long you wait the program to stay before it closes
-and yeah, it then closes.
+###how it works
 
-aight
+it'll ask you how much seconds to halt the program and then yeah, it closes.
+amazing isn't it
+
+aight thats all
