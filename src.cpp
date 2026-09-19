@@ -3,7 +3,7 @@
 #include <thread>
 
 wait(int seconds){
-    std::this_thread::sleep_for(std::chrono::milliseconds(s));
+    std::this_thread::sleep_for(std::chrono::milliseconds(seconds));
 }
 
 int main(){
