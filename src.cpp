@@ -24,7 +24,5 @@ int main(){
     }
 
     wait(s);
-    exit(0);
-    
     return 0;
 }
